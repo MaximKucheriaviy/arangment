@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 21px;
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 868px;
+  }
+  & .head {
+    @include loraFont(20px, 1.28, 400);
+  }
+  & .title {
+    @include loraFont(24px, 1.28, 600);
+  }
+}

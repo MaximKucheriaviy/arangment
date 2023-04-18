@@ -1,0 +1,29 @@
+.summary {
+  @include section(46px, 68px, 85px, 141px);
+  & .epigraph {
+    width: 891px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    @include pattayaFont(32px, 1.38);
+  }
+
+  & .container {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+
+    .description {
+      width: 510px;
+      @include loraFont(20px, 31px, 400);
+    }
+    & .video {
+      width: 472px;
+      height: 300px;
+      background-color: #fff;
+    }
+  }
+}

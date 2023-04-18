@@ -1,0 +1,28 @@
+{
+  "name": "arangment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cleanup": "rm -rf .parcel-cache dist",
+    "start": "npm run cleanup && parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximKucheriaviy/arangment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximKucheriaviy/arangment/issues"
+  },
+  "homepage": "https://github.com/MaximKucheriaviy/arangment#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.4"
+  }
+}
