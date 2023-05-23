@@ -1,9 +1,14 @@
 .summary {
-  @include section(46px, 68px, 85px, 141px);
+  @include section(0px, 42px, 0px, 0px);
 
-  & iframe {
-    width: 100%;
-    height: 100%;
+  & .video {
+    width: 300px;
+    height: 181px;
+    margin-top: 53px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
   }
 
   & .epigraph {
@@ -15,21 +20,13 @@
     @include pattayaFont(32px, 1.38);
   }
 
-  & .container {
-    margin-top: 46px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 72px;
+  & .description {
+    width: 593px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
 
-    .description {
-      width: 510px;
-      @include loraFont(20px, 31px, 400);
-    }
-    & .video {
-      width: 472px;
-      height: 300px;
-      background-color: #fff;
-    }
+    text-align: center;
+    @include elMesseryFont(20, 1.55, 500);
   }
 }

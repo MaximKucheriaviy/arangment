@@ -12,6 +12,13 @@
   line-height: $lineHeight;
 }
 
+@mixin elMesseryFont($size: 24px, $lineHeight: 1.28, $weight: 400) {
+  font-family: "El Messiri", sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lineHeight;
+}
+
 @mixin section($pt: 0px, $pb: 0px, $pl: 0px, $pr: 0px) {
   padding-top: $pt;
   padding-bottom: $pb;

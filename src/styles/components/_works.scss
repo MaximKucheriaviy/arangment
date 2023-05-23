@@ -1,0 +1,25 @@
+.works {
+  @include section(89px, 70px, 85px, 85px);
+  & h2 {
+    @include elMesseryFont(64px, 1.56, 700);
+    text-align: center;
+  }
+  & .scores {
+    width: 946px;
+    display: block;
+    height: calc(946px * sqrt(2));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 71px;
+    border-radius: 20px;
+  }
+
+  & .description {
+    @include elMesseryFont(24px, 1.58, 400);
+    width: 531px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+  }
+}
