@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cleanup": "rm -rf .parcel-cache dist",
-    "start": "npm run cleanup && parcel ./src/index.html"
+    "start": "npm run cleanup && parcel ./src/index.html",
+    "build": "netlify build"
   },
   "repository": {
     "type": "git",
