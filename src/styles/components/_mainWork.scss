@@ -1,0 +1,6 @@
+.main-work {
+  & h2 {
+    @include elMesseryFont(64px, 1.56, 700);
+    text-align: center;
+  }
+}
