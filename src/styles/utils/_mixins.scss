@@ -3,6 +3,7 @@
   font-size: $size;
   font-weight: $weight;
   line-height: $lineHeight;
+  color: white;
 }
 
 @mixin pattayaFont($size: 24px, $lineHeight: 1.28, $weight: 400) {
@@ -10,6 +11,7 @@
   font-size: $size;
   font-weight: $weight;
   line-height: $lineHeight;
+  color: white;
 }
 
 @mixin elMesseryFont($size: 24px, $lineHeight: 1.28, $weight: 400) {
@@ -17,6 +19,7 @@
   font-size: $size;
   font-weight: $weight;
   line-height: $lineHeight;
+  color: white;
 }
 
 @mixin section($pt: 0px, $pb: 0px, $pl: 0px, $pr: 0px) {
@@ -24,4 +27,5 @@
   padding-bottom: $pb;
   padding-left: $pl;
   padding-right: $pr;
+  color: white;
 }

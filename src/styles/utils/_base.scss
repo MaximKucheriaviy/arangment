@@ -3,10 +3,11 @@
 }
 
 body {
-  background-image: $main-gradient;
+  background-image: url("../images/background.png");
   min-height: 4000px;
   padding: 0;
   margin: 0;
+  background-attachment: fixed;
 }
 
 h1,

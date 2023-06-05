@@ -1,25 +1,29 @@
 .characteristick {
-  @include section(38px, 51px);
-  border-radius: 84px;
-  background: radial-gradient(
+  @include section(38px, 51px, 30px, 30px);
+  background-image: radial-gradient(
     83.61% 564.26% at 29.18% 83.61%,
     #fefcc7 0%,
-    rgba(208, 210, 106, 0.497504) 53.02%,
-    rgba(57, 153, 55, 0) 98.56%
+    rgba(208, 210, 106, 0.497504) 100%
   );
+  width: 1061px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 84px;
   & .list {
     margin-left: auto;
     margin-right: auto;
-    width: 1131px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    text-align: justify;
     & .item {
       & h3 {
         @include loraFont(24px, 37px, 600);
+        color: black;
       }
       & p {
         @include loraFont(16px, 25px, 400);
+        color: black;
       }
     }
   }

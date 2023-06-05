@@ -1,5 +1,5 @@
 .herro {
-  @include section(43px, 62px, 20px, 20px);
+  @include section(0px, 62px, 20px, 20px);
   & h1 {
     @include elMesseryFont(48px, 1.56, 600);
     margin-left: auto;

@@ -1,5 +1,9 @@
+const buttonStyle = `
+  background-image: url("https://docs.google.com/uc?id=1Gdu_vgvWUg5AcoatJgf5NGFmC4e0zB6d")
+`;
+
 class Galaplayer {
-  constructor({ path, rootClassName }) {
+  constructor({ path, rootClassName, songName }) {
     this.path = path;
     this.rootDiv = document.querySelector(`.${rootClassName}`);
     this.rootDiv.setAttribute(
@@ -12,14 +16,25 @@ class Galaplayer {
     this.createSlider();
     this.createButton();
     this.sliderSetup();
+    this.createSongName(songName);
     // завантажуємо звук
     this.song = new Audio("./Summerfogle.mp3");
     // мазначаємо методи для кнопок
     this.startButton.addEventListener("click", this.onPlay);
     this.pauseButton.addEventListener("click", this.onPause);
     this.stopButton.addEventListener("click", this.onStop);
-
     this.moving = false;
+  }
+  createButtonStyle() {
+    return `
+      width: 22px;
+      height: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      border: none;
+    `;
   }
   createButton() {
     // створення нижньої панелі для кнопок
@@ -28,40 +43,79 @@ class Galaplayer {
     this.startButton = document.createElement("button");
     this.stopButton = document.createElement("button");
     this.pauseButton = document.createElement("button");
-    this.startButton.textContent = "Start";
-    this.stopButton.textContent = "Stop";
-    this.pauseButton.textContent = "Pause";
+
+    this.startButton.setAttribute("style", this.createButtonStyle());
+    this.stopButton.setAttribute("style", this.createButtonStyle());
+    this.pauseButton.setAttribute("style", this.createButtonStyle());
+
+    buttonDiv.setAttribute(
+      "style",
+      `
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+    `
+    );
+
+    Galaplayer.addIMGOnButtonObject(
+      this.startButton,
+      "https://docs.google.com/uc?id=1Gdu_vgvWUg5AcoatJgf5NGFmC4e0zB6d"
+    );
+    Galaplayer.addIMGOnButtonObject(
+      this.pauseButton,
+      "https://docs.google.com/uc?id=1b5o83exKkeLF7ZQjJgs2wSQd5jbtHMJ1"
+    );
+    Galaplayer.addIMGOnButtonObject(
+      this.stopButton,
+      "https://docs.google.com/uc?id=1iid30Xtp8G46d-LV2jfO2hqairJ77eJz"
+    );
+
     // додавання кнопок в панель
+    buttonDiv.append(this.pauseButton);
     buttonDiv.append(this.startButton);
     buttonDiv.append(this.stopButton);
-    buttonDiv.append(this.pauseButton);
     //
     this.rootDiv.append(buttonDiv);
+  }
+  createSongName(songName) {
+    const title = document.createElement("p");
+    title.textContent = songName;
+    this.rootDiv.prepend(title);
   }
   createSlider() {
     this.slider = document.createElement("div");
     this.handle = document.createElement("div");
+    this.line = document.createElement("div");
     this.xPos = 0;
 
     this.slider.setAttribute(
       "style",
       `height: 50%;
-      background-color: bisque;
+      background-color: transparent;
       display: flex;
       align-items: center;
       padding-left: 10px;`
     );
 
+    this.line.setAttribute(
+      "style",
+      `height: 2px;
+      width: calc(100% - 30px);
+      background-color: white;
+      `
+    );
+
     this.handle.setAttribute(
       "style",
       `left: 0px;
-    height: 20px;
+      height: 20px;
       width: 20px;
      background-color: cornflowerblue;
      position: relative;`
     );
 
     this.slider.append(this.handle);
+    this.slider.append(this.line);
     this.rootDiv.append(this.slider);
   }
   sliderSetup = () => {
@@ -124,6 +178,23 @@ class Galaplayer {
      position: relative;`
     );
   };
+  static addIMGOnButtonObject(object, url, alt) {
+    const image = document.createElement("img");
+    image.setAttribute(
+      "style",
+      `
+      width: 100%;
+      height: 100%;
+    `
+    );
+    image.setAttribute("src", url);
+    image.setAttribute("alt", alt);
+    object.append(image);
+  }
 }
 
-const player = new Galaplayer({ path: "Hello", rootClassName: "audio" });
+const player = new Galaplayer({
+  path: "Hello",
+  rootClassName: "audio",
+  songName: "Somarfogel",
+});

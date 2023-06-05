@@ -1,11 +1,17 @@
 header {
   text-align: center;
   padding-top: 28px;
-  padding-bottom: 105px;
+  padding-bottom: 29px;
+  margin-bottom: 120px;
+  background-image: linear-gradient(
+    180deg,
+    #0f3958 -4.75%,
+    rgba(145, 173, 194, 0) 100%
+  );
   .container {
     margin-left: auto;
     margin-right: auto;
-    width: 868px;
+    width: 805px;
   }
   & .head {
     @include loraFont(20px, 1.28, 400);
