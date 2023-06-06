@@ -1,4 +1,5 @@
 .main-work {
+  position: relative;
   background: linear-gradient(
     104deg,
     #eaedca 17.5%,
@@ -45,5 +46,17 @@
     align-items: center;
     font-size: 100px;
     margin-top: 76px;
+    border-radius: 20px;
+  }
+  .mouse {
+    position: absolute;
+    left: -26px;
+    top: 810px;
+  }
+  .cat {
+    position: absolute;
+    right: -60px;
+    top: 740px;
+    width: 500px;
   }
 }

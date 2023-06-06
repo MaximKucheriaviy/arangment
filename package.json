@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "cleanup": "rm -rf .parcel-cache dist",
     "start": "npm run cleanup && parcel ./src/index.html",
-    "build": "netlify build"
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
