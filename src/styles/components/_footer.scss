@@ -1,0 +1,11 @@
+.footer {
+  background: #0b0e2781;
+  margin-top: 133px;
+  height: 97px;
+  padding-top: 10px;
+  & .data {
+    color: white;
+    text-align: center;
+    @include loraFont(20px, 26px, 500);
+  }
+}

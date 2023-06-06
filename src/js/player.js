@@ -11,6 +11,11 @@ class Galaplayer {
       `
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 130px;
+      background: #D0BF9E;
+border-radius: 60px;
     `
     );
     this.createSlider();
@@ -79,6 +84,16 @@ class Galaplayer {
   }
   createSongName(songName) {
     const title = document.createElement("p");
+    title.setAttribute(
+      "style",
+      `
+      font-family: sans-serif;
+      color: black;
+      font-weight: 400;
+    font-size: 15px;
+      line-height: 23px;
+    `
+    );
     title.textContent = songName;
     this.rootDiv.prepend(title);
   }
@@ -90,18 +105,23 @@ class Galaplayer {
 
     this.slider.setAttribute(
       "style",
-      `height: 50%;
+      `height: 33%;
+      width: 95%;
       background-color: transparent;
       display: flex;
       align-items: center;
+      position: relative;
+      
       padding-left: 10px;`
     );
 
     this.line.setAttribute(
       "style",
       `height: 2px;
-      width: calc(100% - 30px);
+      width: 100%;
       background-color: white;
+      position: relative;
+      z-index: 1;
       `
     );
 
@@ -109,9 +129,12 @@ class Galaplayer {
       "style",
       `left: 0px;
       height: 20px;
-      width: 20px;
-     background-color: cornflowerblue;
-     position: relative;`
+      width: 10px;
+      border-radius: 20px;
+      background-color: rgb(255, 200, 82);
+      border: 1px solid gray;
+      z-index: 2000; 
+     position: absolute;`
     );
 
     this.slider.append(this.handle);
@@ -173,9 +196,12 @@ class Galaplayer {
       "style",
       `left: ${this.xPos}px;
     height: 20px;
-      width: 20px;
-     background-color: cornflowerblue;
-     position: relative;`
+      width: 10px;
+      border-radius: 20px;
+      background-color: rgb(255, 200, 82);
+      border: 1px solid gray;
+      z-index: 2000; 
+     position: absolute;`
     );
   };
   static addIMGOnButtonObject(object, url, alt) {
@@ -196,5 +222,5 @@ class Galaplayer {
 const player = new Galaplayer({
   path: "Hello",
   rootClassName: "audio",
-  songName: "Somarfogel",
+  songName: "Wintergatan     Somarfogel",
 });
