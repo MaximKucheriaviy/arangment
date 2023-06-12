@@ -24,19 +24,44 @@
 
   & .photo {
     margin-top: 126px;
+    position: relative;
     display: flex;
-    justify-content: center;
-    gap: 123px;
-    & li {
-      width: 472px;
-      background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    & div {
       border-radius: 20px;
       box-shadow: 0px -5px 50px rgba(255, 255, 255, 0.185);
       overflow: hidden;
       & img {
         width: 100%;
-        display: block;
       }
+    }
+  }
+  & button {
+    background-color: transparent;
+    border: none;
+  }
+  & .next-button,
+  .prev-button {
+    background-color: transparent;
+    border: none;
+    svg {
+      width: 50px;
+      height: 50px;
+      fill: rgba(255, 255, 255, 0.37);
+    }
+    &:hover {
+      svg {
+        fill: rgba(255, 255, 255, 0.596);
+      }
+    }
+  }
+
+  & .next-button {
+    svg {
+      transform: rotateZ(180deg);
     }
   }
 }
