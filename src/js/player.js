@@ -222,5 +222,5 @@ border-radius: 60px;
 const player = new Galaplayer({
   path: "Hello",
   rootClassName: "audio",
-  songName: "Wintergatan     Somarfogel",
+  songName: "Wintergatan     “Somarfogel”  аранжування для флейти і фортепіано",
 });
