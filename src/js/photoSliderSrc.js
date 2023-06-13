@@ -61,11 +61,9 @@ function leftTurn() {
 }
 
 nextButton.addEventListener("click", () => {
-  console.log(addreses.getCurrent());
   rightTurn();
 });
 
 prevButton.addEventListener("click", () => {
-  console.log(addreses.getCurrent());
   leftTurn();
 });
