@@ -1,5 +1,7 @@
 .practice {
   @include section(0px, 179px, 30px, 30px);
+  margin-top: 56px;
+  position: relative;
   & h2 {
     @include elMesseryFont(64px, 1.56, 700);
     text-align: center;
@@ -11,7 +13,10 @@
     margin-top: 117px;
     & li {
       width: 354px;
-      height: 500px;
+      // height: 500px;
+      & img{
+        width: 100%;
+      }
     }
   }
   & .audio {
@@ -63,5 +68,11 @@
     svg {
       transform: rotateZ(180deg);
     }
+  }
+
+  & .fox-thumb{
+    position: absolute;
+    top: -148px;
+    left: 50px;
   }
 }
