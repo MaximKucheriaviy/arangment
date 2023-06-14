@@ -34,36 +34,61 @@ const prevButton = document.querySelector(".prev-button");
 const firstFoto = document.querySelector(".first-foto");
 const secondFoto = document.querySelector(".second-foto");
 
-function rightTurn() {
-  if (type) {
-    secondFoto.querySelector("img").setAttribute("src", addreses.getNext());
-  } else {
-    firstFoto.querySelector("img").setAttribute("src", addreses.getNext());
-  }
+nextButton.addEventListener("click", rightTurn);
+prevButton.addEventListener("click", leftTurn);
+
+function onFotoLoad(){
+  nextButton.addEventListener("click", rightTurn);
+  prevButton.addEventListener("click", leftTurn);
+}
+
+function onSecondLoade(){
+  console.log('sl');
+  onFotoLoad()
   secondFoto.classList.toggle("hiddenFoto");
   secondFoto.classList.toggle("visibleFoto");
+  secondFoto.querySelector('img').removeEventListener('load', onSecondLoade);
+}
+function onFirstLoaded(){
+  console.log('fl');
+  onFotoLoad()
   firstFoto.classList.toggle("hiddenFoto");
   firstFoto.classList.toggle("visibleFoto");
+  firstFoto.querySelector("img").removeEventListener('load', onFirstLoaded);
+}
+
+function rightTurn() {
+  if (type) {
+    secondFoto.querySelector('img').addEventListener('load', onSecondLoade);
+    secondFoto.querySelector("img").setAttribute("src", addreses.getNext());
+    firstFoto.classList.toggle("hiddenFoto");
+    firstFoto.classList.toggle("visibleFoto");
+  } else {
+    firstFoto.querySelector("img").addEventListener('load', onFirstLoaded);
+    firstFoto.querySelector("img").setAttribute("src", addreses.getNext());
+    secondFoto.classList.toggle("hiddenFoto");
+    secondFoto.classList.toggle("visibleFoto");
+  }
+  nextButton.removeEventListener('click', rightTurn)
+  prevButton.removeEventListener('click', leftTurn)
   type = !type;
 }
 
 function leftTurn() {
   if (type) {
+    secondFoto.querySelector('img').addEventListener('load', onSecondLoade);
     secondFoto.querySelector("img").setAttribute("src", addreses.getPrevious());
+    firstFoto.classList.toggle("hiddenFoto");
+    firstFoto.classList.toggle("visibleFoto");
   } else {
+    firstFoto.querySelector("img").addEventListener('load', onFirstLoaded);
     firstFoto.querySelector("img").setAttribute("src", addreses.getPrevious());
+    secondFoto.classList.toggle("hiddenFoto");
+    secondFoto.classList.toggle("visibleFoto");
   }
-  secondFoto.classList.toggle("hiddenFoto");
-  secondFoto.classList.toggle("visibleFoto");
-  firstFoto.classList.toggle("hiddenFoto");
-  firstFoto.classList.toggle("visibleFoto");
+  nextButton.removeEventListener('click', rightTurn)
+  prevButton.removeEventListener('click', leftTurn)
   type = !type;
 }
 
-nextButton.addEventListener("click", () => {
-  rightTurn();
-});
 
-prevButton.addEventListener("click", () => {
-  leftTurn();
-});
