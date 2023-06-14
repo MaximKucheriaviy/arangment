@@ -6,25 +6,36 @@
     #58c7ce 56.44%,
     rgba(115, 105, 174, 0.36) 88.52%
   );
-  width: 1072px;
-  border-radius: 84px;
+  width: 275px;
+  border-radius: 20px;
+  @include section(30px, 52px, 0px, 0px);
+
+  @media screen and (min-width: 1280px) {
+    width: 1072px;
+    border-radius: 84px;
+    @include section(71px, 117px, 22px, 22px);
+  }
   margin-left: auto;
   margin-right: auto;
-  @include section(71px, 117px, 22px, 22px);
   & h2 {
-    @include elMesseryFont(64px, 1.56, 700);
+    @include elMesseryFont(15px, 1.56, 700);
+
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(64px, 1.56, 700);
+      color: black;
+    }
     color: black;
     text-align: center;
   }
   .video {
     width: 100%;
-    height: 576px;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    margin-top: 76px;
+    height: 160px;
+    margin-top: 30px;
+    @media screen and (min-width: 1280px) {
+      height: 576px;
+      margin-top: 76px;
+    }
+    // font-size: 100px;
     border-radius: 30px;
     overflow: hidden;
     & iframe {
@@ -33,14 +44,23 @@
     }
   }
   .video-description {
-    @include elMesseryFont(24px, 1.8, 600);
+    @include elMesseryFont(16px, 23px, 600);
+    margin-top: 30px;
+    @media screen and (min-width: 1280px) {
+      margin-top: 39px;
+      @include elMesseryFont(24px, 1.8, 600);
+      color: black;
+    }
     color: black;
     text-align: center;
-    margin-top: 39px;
   }
   ul {
+    @include elMesseryFont(10px, 15px, 400);
     text-align: center;
-    @include elMesseryFont(24px, 1.8, 600);
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(24px, 1.8, 600);
+      color: black;
+    }
     color: black;
   }
   .scores {
@@ -56,13 +76,29 @@
   }
   .mouse {
     position: absolute;
-    left: -26px;
-    top: 810px;
+    width: 130px;
+    height: 130px;
+    left: -10px;
+    top: 358px;
+    @media screen and (min-width: 1280px) {
+      left: -26px;
+      top: 810px;
+      width: auto;
+      height: auto;
+    }
   }
   .cat {
     position: absolute;
-    right: -60px;
-    top: 740px;
-    width: 500px;
+    width: 130px;
+    height: 120px;
+    top: 340px;
+    right: -15px;
+    @media screen and (min-width: 1280px) {
+      right: -60px;
+      top: 740px;
+      width: 500px;
+      width: auto;
+      height: auto;
+    }
   }
 }

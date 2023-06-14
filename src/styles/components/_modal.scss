@@ -10,7 +10,11 @@
   transition-property: opacity;
   opacity: 1;
   & .modal {
-    width: calc(75vh / 1.1);
+    width: calc(67vh / 1.1);
+
+    @media screen and (min-width: 1280px) {
+      width: calc(75vh / 1.1);
+    }
     position: absolute;
     left: 50%;
     top: 50%;

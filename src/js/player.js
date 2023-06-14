@@ -15,7 +15,7 @@ class Galaplayer {
       justify-content: center;
       height: 130px;
       background: #D0BF9E;
-border-radius: 60px;
+
     `
     );
     this.createSlider();
@@ -90,7 +90,7 @@ border-radius: 60px;
       font-family: sans-serif;
       color: black;
       font-weight: 400;
-    font-size: 15px;
+
       line-height: 23px;
     `
     );

@@ -1,25 +1,40 @@
 .works {
-  @include section(89px, 70px, 85px, 85px);
+  @include section(0px, 64px, 20px, 20px);
+  @media screen and (min-width: 1280px) {
+    @include section(89px, 70px, 85px, 85px);
+  }
   & h2 {
-    @include elMesseryFont(64px, 1.56, 700);
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(64px, 1.56, 700);
+    }
+    @include elMesseryFont(16px, 25px, 700);
     text-align: center;
   }
   & .scores {
-    width: 946px;
+    @media screen and (min-width: 1280px) {
+      width: 946px;
+      margin-top: 71px;
+    }
+    width: 275px;
     display: block;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 71px;
+    margin-top: 19px;
     border-radius: 20px;
   }
 
   & .description {
-    @include elMesseryFont(24px, 1.58, 400);
-    width: 531px;
+    @include elMesseryFont(10px, 16px, 400);
+    width: 232px;
+    margin-top: 17px;
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(24px, 1.58, 400);
+      width: 531px;
+      margin-top: 46px;
+    }
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 46px;
   }
 }

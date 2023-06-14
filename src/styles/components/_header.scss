@@ -1,8 +1,13 @@
 header {
   text-align: center;
-  padding-top: 28px;
-  padding-bottom: 29px;
-  margin-bottom: 120px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  margin-bottom: 67px;
+  @media screen and (min-width: 1280px) {
+    padding-top: 28px;
+    padding-bottom: 29px;
+    margin-bottom: 120px;
+  }
   background-image: linear-gradient(
     180deg,
     #0f3958 -4.75%,
@@ -11,10 +16,16 @@ header {
   .container {
     margin-left: auto;
     margin-right: auto;
-    width: 805px;
+    width: 142px;
+    @media screen and (min-width: 1280px) {
+      width: 805px;
+    }
   }
   & .head {
-    @include loraFont(20px, 1.28, 400);
+    @include loraFont(5px, 1.28, 500);
+    @media screen and (min-width: 1280px) {
+      @include loraFont(20px, 1.28, 400);
+    }
   }
   & .title {
     @include loraFont(24px, 1.28, 600);

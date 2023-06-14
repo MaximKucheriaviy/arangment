@@ -10,16 +10,16 @@
 82/home/maxim-ka/Документи/Repositores/arangment/RepetitionPhoto/photo7.jpg1686642236166938072 0
 71/home/maxim-ka/Документи/Repositores/arangment/RepetitionPhoto1686642236174939048 1
 76/home/maxim-ka/Документи/Repositores/arangment/src/styles/main.scss1686642236170938560 0
-89/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_works.scss1686642031763422873 0
-92/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_practice.scss1686645072908244281 0
-99/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_characteristick.scss1686642031763422873 0
-90/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_footer.scss1686642031763422873 0
+89/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_works.scss1686779961210126140 0
+92/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_practice.scss1686782140466452043 0
+99/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_characteristick.scss1686779398266078590 0
+90/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_footer.scss1686783949481550761 0
 89/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_modal.scss1686642236170938560 0
-91/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_sumaary.scss1686729827303990030 0
+91/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_sumaary.scss1686778757816767938 0
 88/home/maxim-ka/Документи/Repositores/arangment/src/styles/utils/_variables.scss1686642031763422873 0
-83/home/maxim-ka/Документи/Repositores/arangment/src/styles/utils/_base.scss1686642236170938560 0
+83/home/maxim-ka/Документи/Repositores/arangment/src/styles/utils/_base.scss1686777129391902339 0
 66/home/maxim-ka/Документи/Repositores/arangment/src/styles1686642031763422873 1
-72/home/maxim-ka/Документи/Repositores/arangment/src/js/player.js1686729827303990030 0
+72/home/maxim-ka/Документи/Repositores/arangment/src/js/player.js1686781395659616106 0
 71/home/maxim-ka/Документи/Repositores/arangment/src/js/modal.js1686642236170938560 0
 70/home/maxim-ka/Документи/Repositores/arangment/src/index.html1686642236170938560 0
 78/home/maxim-ka/Документи/Repositores/arangment/src/images/anketa1.png1686644946111362705 0
@@ -1783,7 +1783,7 @@
 113/home/maxim-ka/Документи/Repositores/arangment/node_modules/unicode-match-property-value-ecmascript/data1686642278588276625 1
 111/home/maxim-ka/Документи/Repositores/arangment/node_modules/utility-types/dist/aliases-and-guards.d.ts1686642278396311455 0
 98/home/maxim-ka/Документи/Repositores/arangment/node_modules/mdn-data/css/definitions.json1686642282907536853 0
-81/home/maxim-ka/Документи/Repositores/arangment/dist/anketa1.6e1b015a.png1686730007230433188 0
+81/home/maxim-ka/Документи/Repositores/arangment/dist/anketa1.6e1b015a.png1686781276173581723 0
 108/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2021/IsBigIntElementType.js1686642289390578300 0
 123/home/maxim-ka/Документи/Repositores/arangment/node_modules/has-tostringtag/test/shams/get-own-property-symbols.js1686642286291014958 0
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/glob-to-regexp/.travis.yml1686642286950918408 0
@@ -2122,7 +2122,7 @@
 84/home/maxim-ka/Документи/Repositores/arangment/node_modules/getpass/LICENSE1686642287006910219 0
 136/home/maxim-ka/Документи/Repositores/arangment/node_modules/postcss-modules-local-by-default/node_modules/color-name/.npmignore1686642313696332168 0
 121/home/maxim-ka/Документи/Repositores/arangment/node_modules/css-select/node_modules/entities/lib/decode.d.ts.map1686642321503979851 0
-79/home/maxim-ka/Документи/Repositores/arangment/dist/mouse.605d5395.png1686730007218425309 0
+79/home/maxim-ka/Документи/Repositores/arangment/dist/mouse.605d5395.png1686781276169581922 0
 87/home/maxim-ka/Документи/Repositores/arangment/node_modules/is-callable/.nycrc1686642285035202730 0
 118/home/maxim-ka/Документи/Repositores/arangment/node_modules/jsdom/lib/jsdom/living/generated/CharacterData.js1686642283991364130 0
 96/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/fn/weak-map/from.js1686642292602165677 0
@@ -2262,7 +2262,7 @@
 106/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/transformer-babel/lib/flow.js1686642302725108927 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/ora/node_modules/has-flag/license1686642318564094557 0
 107/home/maxim-ka/Документи/Repositores/arangment/node_modules/ora/node_modules/has-flag/package.json1686642318564094557 0
-82/home/maxim-ka/Документи/Repositores/arangment/dist/svgIcons.04384acb.svg1686730007102349137 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/svgIcons.04384acb.svg1686781276025589105 0
 127/home/maxim-ka/Документи/Repositores/arangment/node_modules/css-modules-loader-core/node_modules/postcss/lib/parser.js1686642321899965803 0
 92/home/maxim-ka/Документи/Repositores/arangment/node_modules/lodash/fp/assignWith.js1686642283079509087 0
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/safer-buffer/Readme.md1686642280183993414 0
@@ -3510,7 +3510,7 @@
 98/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/compat-data/plugins.js1686642311380467301 0
 99/home/maxim-ka/Документи/Repositores/arangment/node_modules/uri-js/dist/esnext/util.js.map1686642278772243246 0
 81/home/maxim-ka/Документи/Repositores/arangment/node_modules/opn/index.js1686642282063674674 0
-60/home/maxim-ka/Документи/Repositores/arangment/dist1686731969484722555 1
+60/home/maxim-ka/Документи/Repositores/arangment/dist1686783925904919405 1
 97/home/maxim-ka/Документи/Repositores/arangment/node_modules/uri-js/dist/esnext/util.d.ts1686642278776242521 0
 112/home/maxim-ka/Документи/Repositores/arangment/node_modules/postcss-minify-font-values/types/index.d.ts1686642281807717352 0
 108/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/helper-hoist-variables/README.md1686642310908496438 0
@@ -5769,7 +5769,7 @@
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/unicode-trie/README.md1686642278556282430 0
 87/home/maxim-ka/Документи/Repositores/arangment/node_modules/mimic-fn/readme.md1686642282723566900 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/string.prototype.trimstart/.nycrc1686642279216163697 0
-77/home/maxim-ka/Документи/Repositores/arangment/dist/cat.e20392b3.png1686730007218425309 0
+77/home/maxim-ka/Документи/Repositores/arangment/dist/cat.e20392b3.png1686781276169581922 0
 89/home/maxim-ka/Документи/Repositores/arangment/node_modules/ret/lib/positions.js1686642280231985149 0
 115/home/maxim-ka/Документи/Repositores/arangment/node_modules/regenerate-unicode-properties/Script/Lycian.js1686642280671909377 0
 112/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/converters/toExpression.js1686642308184678245 0
@@ -5886,7 +5886,7 @@
 106/home/maxim-ka/Документи/Repositores/arangment/node_modules/fast-glob/package/out/utils/path.d.ts1686642289242598165 0
 78/home/maxim-ka/Документи/Repositores/arangment/node_modules/word-wrap1686642278216344107 1
 84/home/maxim-ka/Документи/Repositores/arangment/node_modules/.bin/sshpk-conv1686642357011972202 0
-89/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_herro.scss1686644350369934305 0
+89/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_herro.scss1686777969520846391 0
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/plugin-transform-modules-commonjs1686642309496588211 1
 149/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/htmlnano/node_modules/htmlparser2/lib/FeedHandler.js1686642316468189396 0
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/readable-stream/lib/_stream_transform.js1686642280623917643 0
@@ -6131,7 +6131,7 @@
 92/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/compat-data/data1686642311380467301 1
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/utils/src/getModuleParts.js1686642300761286628 0
 100/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/compat-data/package.json1686642311380467301 0
-78/home/maxim-ka/Документи/Repositores/arangment/dist/index.5103b0b9.js1686731969484722555 0
+78/home/maxim-ka/Документи/Repositores/arangment/dist/index.5103b0b9.js1686781276233578730 0
 110/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/lib/utils/loadSourceMap.js1686642282215649853 0
 105/home/maxim-ka/Документи/Repositores/arangment/node_modules/falafel/node_modules/acorn/README.md1686642323211922579 0
 132/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/plugins.js1686642324019897725 0
@@ -7284,7 +7284,7 @@
 90/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/es2019.js1686642289062622325 0
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/buffer-equal/example/eq.js1686642296541712076 0
 82/home/maxim-ka/Документи/Repositores/arangment/node_modules/nth-check/lib1686642282439613275 1
-79/home/maxim-ka/Документи/Repositores/arangment/dist/rabit.f27ed78e.png1686730007218425309 0
+79/home/maxim-ka/Документи/Repositores/arangment/dist/rabit.f27ed78e.png1686781276169581922 0
 116/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/plugin-transform-computed-properties/lib1686642309964556938 1
 120/home/maxim-ka/Документи/Repositores/arangment/node_modules/@swc/helpers/src/_tagged_template_literal_loose.mjs1686642301777193114 0
 93/home/maxim-ka/Документи/Repositores/arangment/node_modules/posthtml-include/LICENSE1686642281391787122 0
@@ -7456,7 +7456,7 @@
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/util.promisify/auto.js1686642278424306375 0
 81/home/maxim-ka/Документи/Repositores/arangment/node_modules/asn1/lib/ber1686642298441513063 1
 116/home/maxim-ka/Документи/Repositores/arangment/node_modules/unicode-trie/node_modules/pako/dist/pako.min.js1686642311892435977 0
-78/home/maxim-ka/Документи/Repositores/arangment/dist/index.f9b3b06b.js1686730007238438443 0
+78/home/maxim-ka/Документи/Repositores/arangment/dist/index.f9b3b06b.js1686781276233578730 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2020/SameValueZero.js1686642289446570783 0
 99/home/maxim-ka/Документи/Repositores/arangment/node_modules/w3c-xmlserializer/package.json1686642278344320888 0
 94/home/maxim-ka/Документи/Repositores/arangment/node_modules/unicode-trie/node_modules1686642275740811214 1
@@ -7620,7 +7620,7 @@
 113/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2018/StrictEqualityComparison.js1686642289454569710 0
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/clone1686642308180678523 1
 108/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2019/OrdinaryHasInstance.js1686642289434572393 0
-82/home/maxim-ka/Документи/Repositores/arangment/dist/picture1.12073dab.jpg1686730007250446322 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/picture1.12073dab.jpg1686781276189580924 0
 105/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2015/thisBooleanValue.js1686642289462568635 0
 81/home/maxim-ka/Документи/Repositores/arangment/node_modules/depd/LICENSE1686642289522560583 0
 142/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/csso/node_modules/css-tree/lib/lexer/Lexer.js1686642318408101228 0
@@ -7904,12 +7904,12 @@
 73/home/maxim-ka/Документи/Repositores/arangment/node_modules/sass1686642281439779072 1
 114/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/builders/validateNode.js.map1686642308168679359 0
 129/home/maxim-ka/Документи/Repositores/arangment/node_modules/regenerate-unicode-properties/General_Category/Unassigned.js1686642280899870114 0
-82/home/maxim-ka/Документи/Repositores/arangment/dist/index.5103b0b9.js.map1686731969484722555 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/index.5103b0b9.js.map1686781276241578330 0
 94/home/maxim-ka/Документи/Repositores/arangment/node_modules/css-select/lib/general.js1686642291038361252 0
 107/home/maxim-ka/Документи/Repositores/arangment/node_modules/create-ecdh/node_modules/bn.js/LICENSE1686642321991962539 0
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/core/lib/transformation/file1686642311548457023 1
 126/home/maxim-ka/Документи/Repositores/arangment/node_modules/uncss/node_modules/postcss-selector-parser/dist/selectors1686642311860437935 1
-82/home/maxim-ka/Документи/Repositores/arangment/dist/picture2.9cc2cc95.jpg1686730007246443695 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/picture2.9cc2cc95.jpg1686781276185581125 0
 117/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2016/AbstractRelationalComparison.js1686642288894645313 0
 88/home/maxim-ka/Документи/Repositores/arangment/node_modules/lodash/kebabCase.js1686642283243483020 0
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/validators/isVar.js.map1686642308632647014 0
@@ -8288,7 +8288,7 @@
 105/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/library/fn/array/includes.js1686642292618163714 0
 113/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/runtime/helpers/wrapAsyncGenerator.js1686642308448659841 0
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/static-module/test/varmod/vars.html1686642279436124807 0
-78/home/maxim-ka/Документи/Repositores/arangment/dist/index.38110f5a.js1686730007238438443 0
+78/home/maxim-ka/Документи/Repositores/arangment/dist/index.38110f5a.js1686781395787609712 0
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/vm-browserify/example/run/server.js1686642278364317259 0
 96/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2015/ToUint8.js1686642289494564341 0
 114/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/plugin-syntax-class-properties/LICENSE1686642310372530730 0
@@ -8573,7 +8573,7 @@
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/postcss-minify-font-values1686642281807717352 1
 103/home/maxim-ka/Документи/Repositores/arangment/node_modules/array-buffer-byte-length/README.md1686642299089447745 0
 97/home/maxim-ka/Документи/Repositores/arangment/node_modules/nth-check/lib/parse.d.ts.map1686642282431614582 0
-84/home/maxim-ka/Документи/Repositores/arangment/dist/mainScores.608c5d3f.pdf1686730007090341257 0
+84/home/maxim-ka/Документи/Repositores/arangment/dist/mainScores.608c5d3f.pdf1686781275989590902 0
 81/home/maxim-ka/Документи/Repositores/arangment/node_modules/util/LICENSE1686642278424306375 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/transformer-image/LICENSE1686642301865185081 0
 129/home/maxim-ka/Документи/Repositores/arangment/node_modules/css-modules-loader-core/node_modules/source-map/CHANGELOG.md1686642322055960387 0
@@ -8655,7 +8655,7 @@
 131/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/helper-define-polyfill-provider/node_modules/semver/bin1686642324759876622 1
 133/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/optimizer-svgo/node_modules/css-select/lib/attributes.js1686642323599910629 0
 144/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/cleanupEnableBackground.js1686642323671908411 0
-83/home/maxim-ka/Документи/Repositores/arangment/dist/index.971c2ea4.css.map1686730007106351764 0
+83/home/maxim-ka/Документи/Repositores/arangment/dist/index.971c2ea4.css.map1686783925900919299 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/babel-plugin-polyfill-corejs2/esm1686642297805578137 1
 112/home/maxim-ka/Документи/Repositores/arangment/node_modules/@jridgewell/set-array/dist/set-array.umd.js1686642307868700664 0
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/helper-wrap-function/LICENSE1686642310652512815 0
@@ -8833,7 +8833,7 @@
 115/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/definitions/typescript.js.map1686642308344667091 0
 103/home/maxim-ka/Документи/Repositores/arangment/node_modules/ansi-to-html/lib/ansi_to_html.d.ts1686642299237433259 0
 100/home/maxim-ka/Документи/Repositores/arangment/node_modules/caniuse-lite/data/regions/OM.js1686642296665698661 0
-84/home/maxim-ka/Документи/Repositores/arangment/dist/background.cc312e9e.png1686730007258451576 0
+84/home/maxim-ka/Документи/Repositores/arangment/dist/background.cc312e9e.png1686781276249577931 0
 101/home/maxim-ka/Документи/Repositores/arangment/node_modules/file-uri-to-path/test/tests.json1686642287342862438 0
 96/home/maxim-ka/Документи/Repositores/arangment/node_modules/which-typed-array/README.md1686642278228341930 0
 92/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/traverse/LICENSE1686642308552652589 0
@@ -9098,7 +9098,7 @@
 171/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/postcss-merge-rules/node_modules/postcss-selector-parser/dist/processor.js1686642315308246663 0
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/encodeurl/package.json1686642288722669082 0
 101/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/preset-env/lib/options.js1686642308724640600 0
-79/home/maxim-ka/Документи/Repositores/arangment/dist/works.49bf6173.pdf1686730007106351764 0
+79/home/maxim-ka/Документи/Repositores/arangment/dist/works.49bf6173.pdf1686781275993590701 0
 86/home/maxim-ka/Документи/Repositores/arangment/node_modules/lmdb/package.json1686642286398999159 0
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/public-encrypt/test/ec.pub1686642281047844816 0
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/stylehacks/src/dictionary/identifiers.js1686642279184169353 0
@@ -9680,7 +9680,7 @@
 93/home/maxim-ka/Документи/Repositores/arangment/node_modules/dashdash/lib/dashdash.js1686642289858515484 0
 128/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/traverse/lib/path/lib/virtual-types-validator.js.map1686642309760570571 0
 87/home/maxim-ka/Документи/Repositores/arangment/node_modules/cache-base/LICENSE1686642296509715537 0
-90/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_header.scss1686642031763422873 0
+90/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_header.scss1686777581948578966 0
 101/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/library/web/immediate.js1686642292618163714 0
 126/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/csso/lib/clean/Declaration.js1686642324483884493 0
 121/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/node-resolver-core/test/fixture/node_modules1686642305536875857 1
@@ -9954,7 +9954,7 @@
 100/home/maxim-ka/Документи/Repositores/arangment/node_modules/get-symbol-description/index.js1686642287066901688 0
 113/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/core/lib/config/validation/plugins.js1686642311468461916 0
 102/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/es6.string.sub.js1686642292566170096 0
-82/home/maxim-ka/Документи/Repositores/arangment/dist/index.f9b3b06b.js.map1686730007246443695 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/index.f9b3b06b.js.map1686781276241578330 0
 131/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/helper-create-class-features-plugin/lib/features.js.map1686642311136482228 0
 96/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/events/lib/index.js1686642306008838751 0
 105/home/maxim-ka/Документи/Repositores/arangment/node_modules/csso/cjs/replace/property/border.cjs1686642289886511726 0
@@ -10484,7 +10484,7 @@
 77/home/maxim-ka/Документи/Repositores/arangment/node_modules/dashdash1686642289858515484 1
 120/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/runtime/helpers/iterableToArrayLimitLoose.js1686642308444660119 0
 87/home/maxim-ka/Документи/Repositores/arangment/node_modules/jsesc/package.json1686642283719407363 0
-77/home/maxim-ka/Документи/Repositores/arangment/dist/Fox.781617a4.png1686730007218425309 0
+77/home/maxim-ka/Документи/Repositores/arangment/dist/Fox.781617a4.png1686781276169581922 0
 99/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2020/TrimString.js1686642289498563804 0
 121/home/maxim-ka/Документи/Repositores/arangment/node_modules/expand-brackets/node_modules/is-extendable/README.md1686642320248026217 0
 131/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/plugin-transform-modules-commonjs/lib/dynamic-import.js1686642309492588479 0
@@ -12303,7 +12303,7 @@
 108/home/maxim-ka/Документи/Repositores/arangment/node_modules/babel-plugin-polyfill-corejs3/README.md1686642297637595726 0
 92/home/maxim-ka/Документи/Repositores/arangment/node_modules/node-forge/lib/baseN.js1686642282591588454 0
 99/home/maxim-ka/Документи/Repositores/arangment/node_modules/@babel/types/lib/index.js.flow1686642308444660119 0
-81/home/maxim-ka/Документи/Repositores/arangment/dist/anketa2.0cea7347.png1686730007230433188 0
+81/home/maxim-ka/Документи/Repositores/arangment/dist/anketa2.0cea7347.png1686781276173581723 0
 94/home/maxim-ka/Документи/Repositores/arangment/node_modules/@swc/helpers/package.json1686642301177247874 0
 88/home/maxim-ka/Документи/Repositores/arangment/node_modules/esprima/LICENSE.BSD1686642288398713852 0
 116/home/maxim-ka/Документи/Repositores/arangment/node_modules/babel-plugin-polyfill-corejs2/esm/index.mjs.map1686642297805578137 0
@@ -13020,7 +13020,7 @@
 120/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/workers/test/integration/workerfarm/echo.js1686642301869184717 0
 98/home/maxim-ka/Документи/Repositores/arangment/node_modules/uncss/node_modules/picocolors1686642311812440872 1
 106/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/core.function.part.js1686642292286204455 0
-82/home/maxim-ka/Документи/Repositores/arangment/dist/index.38110f5a.js.map1686730007246443695 0
+82/home/maxim-ka/Документи/Repositores/arangment/dist/index.38110f5a.js.map1686781395791609513 0
 110/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/library/modules/es7.observable.js1686642292586167642 0
 112/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/library/fn/string/virtual/strike.js1686642293082107061 0
 91/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/5/floor.js1686642289362582058 0
@@ -17455,7 +17455,7 @@
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/_advance-string-index.js1686642292198215252 0
 107/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/es6.typed.data-view.js1686642292570169604 0
 100/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/_iter-detect.js1686642292226211818 0
-71/home/maxim-ka/Документи/Repositores/arangment/dist/index.html1686730007082336004 0
+71/home/maxim-ka/Документи/Repositores/arangment/dist/index.html1686783872875513971 0
 90/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/cache/LICENSE1686642307668715193 0
 117/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/es7.reflect.get-metadata-keys.js1686642292586167642 0
 99/home/maxim-ka/Документи/Repositores/arangment/node_modules/core-js/modules/_object-pie.js1686642292230211325 0
@@ -19669,7 +19669,7 @@
 109/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2019/StringGetOwnProperty.js1686642289458569173 0
 118/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/postcss-svgo/dist/lib1686642314856269830 1
 119/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/postcss-svgo/README.md1686642314856269830 0
-81/home/maxim-ka/Документи/Repositores/arangment/src/partshals/footer.html1686642031763422873 0
+81/home/maxim-ka/Документи/Repositores/arangment/src/partshals/footer.html1686783872851513340 0
 98/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-abstract/2021/BinaryXor.js1686642288902644208 0
 110/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/color-convert1686642318156112004 1
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/csso/node_modules/css-tree1686642323943900034 1
@@ -19781,7 +19781,7 @@
 128/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/css-tree/lib/tokenizer/index.js1686642320076032730 0
 128/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/css-tree/lib/convertor/index.js1686642320076032730 0
 140/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/css-tree/lib/definition-syntax/tokenizer.js1686642320456018341 0
-92/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_mainWork.scss1686642031763422873 0
+92/home/maxim-ka/Документи/Repositores/arangment/src/styles/components/_mainWork.scss1686783311954602348 0
 136/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/css-tree/lib/definition-syntax/index.js1686642320076032730 0
 95/home/maxim-ka/Документи/Repositores/arangment/node_modules/color-convert/package.json1686642294865897925 0
 133/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/css-tree/lib/lexer/generic-urange.js1686642319892039964 0
@@ -20361,7 +20361,7 @@
 125/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/csso/lib/restructure/prepare1686642324487884378 1
 134/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/csso/lib/restructure/prepare/index.js1686642324487884378 0
 138/home/maxim-ka/Документи/Repositores/arangment/node_modules/parcel-bundler/node_modules/csso/lib/restructure/8-restructRuleset.js1686642318240108412 0
-82/home/maxim-ka/Документи/Repositores/arangment/src/partshals/summary.html1686729827303990030 0
+82/home/maxim-ka/Документи/Repositores/arangment/src/partshals/summary.html1686781274265676895 0
 100/home/maxim-ka/Документи/Repositores/arangment/node_modules/stylehacks/src/plugins/index.js1686642279184169353 0
 112/home/maxim-ka/Документи/Repositores/arangment/node_modules/@parcel/workers/src/process/ProcessChild.js1686642301869184717 0
 81/home/maxim-ka/Документи/Repositores/arangment/node_modules/css-tree/cjs1686642291346322293 1
@@ -22359,7 +22359,7 @@
 122/home/maxim-ka/Документи/Repositores/arangment/node_modules/csso/node_modules/mdn-data/css/properties.schema.json1686642321991962539 0
 107/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-to-primitive/helpers/isPrimitive.js1686642288294728223 0
 94/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-to-primitive/README.md1686642288294728223 0
-79/home/maxim-ka/Документи/Repositores/arangment/dist/index.971c2ea4.css1686730007106351764 0
+79/home/maxim-ka/Документи/Repositores/arangment/dist/index.971c2ea4.css1686783925896919192 0
 93/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-to-primitive/Makefile1686642288290728775 0
 92/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-to-primitive/.github1686642288294728223 1
 104/home/maxim-ka/Документи/Repositores/arangment/node_modules/es-to-primitive/.github/FUNDING.yml1686642288294728223 0

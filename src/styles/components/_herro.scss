@@ -1,16 +1,35 @@
 .herro {
   position: relative;
-  @include section(0px, 278px, 20px, 20px);
+  @include section(0px, 88px, 20px, 20px);
+  @media screen and (min-width: 1280px) {
+    @include section(0px, 278px, 20px, 20px);
+  }
   & h1 {
-    @include elMesseryFont(48px, 1.56, 600);
     margin-left: auto;
     margin-right: auto;
-    width: 1035px;
+    width: 250px;
+    @include elMesseryFont(16px, 1.56, 500);
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(48px, 1.56, 600);
+      width: 1035px;
+    }
     text-align: center;
   }
-  & .rabit-thumb{
-    position:absolute;
-    top: 75px;
-    right: 45px;
+  & .rabit-thumb {
+    position: absolute;
+    top: 32px;
+    right: 15px;
+    max-width: 93px;
+    max-height: 98px;
+    @media screen and (min-width: 1280px) {
+      max-width: none;
+      max-height: none;
+      top: 75px;
+      right: 45px;
+    }
+    & img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

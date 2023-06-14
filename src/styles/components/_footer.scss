@@ -1,11 +1,36 @@
 .footer {
   background: #0b0e2781;
-  margin-top: 133px;
-  height: 97px;
-  padding-top: 10px;
+  margin-top: 158px;
+  height: 27px;
+  padding-left: 22px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  // display: flex;
+  // justify-content: center;
+  @media screen and (min-width: 1280px) {
+    margin-top: 133px;
+    height: 97px;
+    padding-top: 10px;
+  }
   & .data {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  & .creators {
+    display: inline-block;
+  }
+
+  .footer-text {
     color: white;
     text-align: center;
-    @include loraFont(20px, 26px, 500);
+    @include loraFont(5px, 5px, 500);
+
+    @media screen and (min-width: 1280px) {
+      @include loraFont(20px, 26px, 500);
+    }
   }
 }
