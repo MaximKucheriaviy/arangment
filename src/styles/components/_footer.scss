@@ -1,13 +1,12 @@
 .footer {
   background: #0b0e2781;
-  margin-top: 158px;
-  height: 27px;
-  padding-left: 22px;
+  margin-top: 30px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  // padding-left: 22px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
-  // display: flex;
-  // justify-content: center;
   @media screen and (min-width: 1280px) {
     margin-top: 133px;
     height: 97px;
@@ -17,20 +16,35 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-110%);
+
+    @media screen and (min-width: 1280px) {
+      transform: translateX(-50%) translateY(-50%);
+    }
   }
 
   & .creators {
     display: inline-block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+    @include elMesseryFont(14px, 1.56, 400);
+    @media screen and (min-width: 1280px) {
+      @include elMesseryFont(14px, 1.56, 400);
+      color: white;
+      margin-left: 154px;
+    }
   }
 
   .footer-text {
     color: white;
     text-align: center;
-    @include loraFont(5px, 5px, 500);
+    @include loraFont(16px, 1.56, 500);
 
     @media screen and (min-width: 1280px) {
-      @include loraFont(20px, 26px, 500);
+      @include loraFont(20px, 1.56, 500);
     }
   }
 }

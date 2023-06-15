@@ -4,19 +4,31 @@
     @include section(89px, 70px, 85px, 85px);
   }
   & h2 {
+    @include elMesseryFont(34px, 1.56, 700);
     @media screen and (min-width: 1280px) {
       @include elMesseryFont(64px, 1.56, 700);
     }
-    @include elMesseryFont(16px, 25px, 700);
     text-align: center;
   }
+  & .download-button {
+    margin-top: 30px;
+    display: block;
+    & img {
+      width: 100%;
+      display: block;
+    }
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
   & .scores {
+    display: none;
     @media screen and (min-width: 1280px) {
       width: 946px;
       margin-top: 71px;
+      display: block;
     }
     width: 275px;
-    display: block;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
@@ -25,8 +37,8 @@
   }
 
   & .description {
-    @include elMesseryFont(10px, 16px, 400);
-    width: 232px;
+    @include elMesseryFont(20px, 1.58, 400);
+    width: 300px;
     margin-top: 17px;
     @media screen and (min-width: 1280px) {
       @include elMesseryFont(24px, 1.58, 400);

@@ -2,7 +2,8 @@ header {
   text-align: center;
   padding-top: 7px;
   padding-bottom: 8px;
-  margin-bottom: 67px;
+  margin-bottom: 30px;
+  padding-top: 20px;
   @media screen and (min-width: 1280px) {
     padding-top: 28px;
     padding-bottom: 29px;
@@ -16,13 +17,13 @@ header {
   .container {
     margin-left: auto;
     margin-right: auto;
-    width: 142px;
+    width: 300px;
     @media screen and (min-width: 1280px) {
       width: 805px;
     }
   }
   & .head {
-    @include loraFont(5px, 1.28, 500);
+    @include loraFont(15px, 1.28, 500);
     @media screen and (min-width: 1280px) {
       @include loraFont(20px, 1.28, 400);
     }

@@ -26,17 +26,24 @@
         #fefcc7 0%,
         rgba(208, 210, 106, 0.497504) 100%
       );
-      text-align: center;
+      text-align: justify;
       border-radius: 20px;
 
-      @include section(9px, 9px, 0px, 0px);
+      & h3 {
+        text-align: center;
+        @media screen and (min-width: 1280px) {
+          text-align: left;
+        }
+      }
+
+      @include section(20px, 20px, 10px, 10px);
       @media screen and (min-width: 1280px) {
         background-image: none;
         text-align: left;
         @include section(0px, 0px, 0px, 0px);
       }
       & h3 {
-        @include loraFont(15px, 25px, 600);
+        @include loraFont(24px, 25px, 600);
         color: black;
         @media screen and (min-width: 1280px) {
           @include loraFont(24px, 37px, 600);
@@ -44,7 +51,7 @@
         }
       }
       & p {
-        @include loraFont(10px, 15px, 400);
+        @include loraFont(15px, 1.56, 400);
         @media screen and (min-width: 1280px) {
           @include loraFont(16px, 25px, 400);
           color: black;

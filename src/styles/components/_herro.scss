@@ -1,23 +1,24 @@
 .herro {
   position: relative;
-  @include section(0px, 88px, 20px, 20px);
+  @include section(0px, 40px, 20px, 20px);
   @media screen and (min-width: 1280px) {
     @include section(0px, 278px, 20px, 20px);
   }
   & h1 {
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    @include elMesseryFont(16px, 1.56, 500);
+    width: 300px;
+    @include elMesseryFont(38px, 1.36, 500);
     @media screen and (min-width: 1280px) {
       @include elMesseryFont(48px, 1.56, 600);
       width: 1035px;
+      text-align: center;
     }
-    text-align: center;
+    text-align: left;
   }
   & .rabit-thumb {
     position: absolute;
-    top: 32px;
+    top: -40px;
     right: 15px;
     max-width: 93px;
     max-height: 98px;

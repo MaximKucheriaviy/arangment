@@ -1,30 +1,57 @@
-<section class="main-work">
-  <h2>Кваліфікаційна творча робота</h2>
-  <div class="work">
-    <div class="video">
-      <iframe
-        class="vidos"
-        src="https://www.youtube.com/embed/lMAhItJh7AY"
-        title='Кавер-версія для вокально-інструментального ансамблю Sondia "Say to myself"'
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
+<section class="main-work-section">
+  <div class="main-work">
+    <h2>Кваліфікаційна творча робота</h2>
+    <div class="work">
+      <div class="video">
+        <iframe
+          class="vidos"
+          src="https://www.youtube.com/embed/lMAhItJh7AY"
+          title='Кавер-версія для вокально-інструментального ансамблю Sondia "Say to myself"'
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="info">
+        <p class="video-description">Sondia “Say to myself” cover</p>
+        <ul>
+          <li>Вокал: Катерина Данілкович</li>
+          <li>Фортепіано: Руслана Голюк</li>
+          <li>Віолончель: Віталій Скулєвіч</li>
+          <li>Гітара: Денис Бельмега</li>
+          <li>Електрогітара: Валентин Добровінський</li>
+          <li>Бас-гітара: Іван Юрченко</li>
+          <li>Ударні: Єгор Швачко</li>
+        </ul>
+        <img class="mouse" src="./images/mouse.png" alt="mouse" />
+        <img class="cat" src="./images/cat.png" alt="mouse" />
+      </div>
+      <embed
+        class="scores"
+        src="./docs/mainScores.pdf"
+        type="application/pdf"
+      />
+      <a class="download-button" href="./docs/works.pdf" download>
+        <img src="./images/worksTitle.jpg" alt="Scores" />
+      </a>
     </div>
-    <div class="info">
-      <p class="video-description">Sondia “Say to myself” cover</p>
-      <ul>
-        <li>Вокал: Катерина Данілкович</li>
-        <li>Фортепіано: Руслана Голюк</li>
-        <li>Віолончель: Віталій Скулєвіч</li>
-        <li>Гітара: Денис Бельмега</li>
-        <li>Електрогітара: Валентин Добровінський</li>
-        <li>Бас-гітара: Іван Юрченко</li>
-        <li>Ударні: Єгор Швачко</li>
-      </ul>
+  </div>
+  <div class="photo">
+    <div class="first-foto rotFoto visibleFoto">
+      <img src="./images/picture1.jpg" alt="photo" />
     </div>
-    <embed class="scores" src="./docs/mainScores.pdf" type="application/pdf" />
-    <img class="mouse" src="./images/mouse.png" alt="mouse" />
-    <img class="cat" src="./images/cat.png" alt="mouse" />
+    <div class="second-foto rotFoto hiddenFoto">
+      <img src="./images/picture2.jpg" alt="photo" />
+    </div>
+    <button class="next-button">
+      <svg>
+        <use href="./images/svgIcons.svg#icon-play3"></use>
+      </svg>
+    </button>
+    <button class="prev-button">
+      <svg>
+        <use href="./images/svgIcons.svg#icon-play3"></use>
+      </svg>
+    </button>
   </div>
 </section>
