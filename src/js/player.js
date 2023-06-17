@@ -144,6 +144,7 @@ class Galaplayer {
   sliderSetup = () => {
     this.rightMax = this.slider.offsetWidth - 40;
     this.handle.addEventListener("mousedown", this.onMouseDown);
+    this.handle.addEventListener("touchstart", this.onTouchStarted);
   };
   onMove = (event) => {
     this.xPos += event.movementX;
@@ -154,6 +155,42 @@ class Galaplayer {
       this.xPos = 0;
     }
     this.setHandlePosition(this.xPos);
+  };
+  onTouchStarted = (event) => {
+    this.touch = event.changedTouches[0];
+    document.addEventListener("touchmove", this.onSlide);
+    this.handle.removeEventListener("touchstart", this.onTouchStarted);
+    document.addEventListener("touchend", this.onTouchEnded);
+  };
+  onTouchEnded = (event) => {
+    if (!this.touch) {
+      return;
+    }
+    for (let i = 0; i < event.changedTouches.length; i++) {
+      if (event.changedTouches[i].identifier === this.touch.identifier) {
+        this.touch = undefined;
+        document.removeEventListener("touchmove", this.onSlide);
+        document.removeEventListener("touchend", this.onTouchEnded);
+        this.handle.addEventListener("touchstart", this.onTouchStarted);
+        return;
+      }
+    }
+  };
+  onSlide = (event) => {
+    if (!this.touch) {
+      return;
+    }
+    for (let i = 0; i < event.changedTouches.length; i++) {
+      if (event.changedTouches[i].identifier === this.touch.identifier) {
+        const defference = event.changedTouches[i].clientX - this.touch.clientX;
+        this.onMove({ movementX: defference });
+        this.touch = event.changedTouches[i];
+        const present = (this.xPos * 100) / this.rightMax;
+        this.song.currentTime = (present * this.song.duration) / 100;
+        this.moving = false;
+        break;
+      }
+    }
   };
   onMouseDown = () => {
     document.addEventListener("mousemove", this.onMove);
