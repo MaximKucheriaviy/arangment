@@ -41,6 +41,8 @@
   & .docks {
     display: flex;
     justify-content: center;
+    align-items: center;
+
     gap: 37px;
     flex-wrap: wrap;
     flex-direction: column;
@@ -50,6 +52,7 @@
       margin-top: 117px;
       column-gap: 50px;
       row-gap: 50px;
+      align-items: initial;
     }
     & li {
       width: 263px;
