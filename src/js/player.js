@@ -1,5 +1,5 @@
 const buttonStyle = `
-  background-image: url("https://docs.google.com/uc?id=1Gdu_vgvWUg5AcoatJgf5NGFmC4e0zB6d")
+  background-image: url("https://www.dropbox.com/s/qqx46kf7xe7o1k55lcqe0/pause.png?raw=1")
 `;
 
 class Galaplayer {
@@ -32,7 +32,7 @@ class Galaplayer {
   }
   createButtonStyle() {
     return `
-      width: 22px;
+      width: 25px;
       height: 22px;
       display: flex;
       justify-content: center;
@@ -64,15 +64,15 @@ class Galaplayer {
 
     Galaplayer.addIMGOnButtonObject(
       this.startButton,
-      "https://docs.google.com/uc?id=1Gdu_vgvWUg5AcoatJgf5NGFmC4e0zB6d"
+      "./RepetitionPhoto/photos/play.png"
     );
     Galaplayer.addIMGOnButtonObject(
       this.pauseButton,
-      "https://docs.google.com/uc?id=1b5o83exKkeLF7ZQjJgs2wSQd5jbtHMJ1"
+      "./RepetitionPhoto/photos/pause.png"
     );
     Galaplayer.addIMGOnButtonObject(
       this.stopButton,
-      "https://docs.google.com/uc?id=1iid30Xtp8G46d-LV2jfO2hqairJ77eJz"
+      "./RepetitionPhoto/photos/stop.png"
     );
 
     // додавання кнопок в панель

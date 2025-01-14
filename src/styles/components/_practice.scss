@@ -2,10 +2,29 @@
   @include section(0px, 80px, 30px, 30px);
 
   @media screen and (min-width: 1280px) {
-    @include section(0px, 179px, 30px, 30px);
+    @include section(0px, 179px, 100px, 100px);
     margin-top: 56px;
   }
   position: relative;
+  & .video {
+    width: 90vw;
+    height: calc(90vw * 9 / 16);
+    border-radius: 10px;
+    @media screen and (min-width: 1280px) {
+      width: 1029px;
+      height: 522px;
+      border-radius: 40px;
+    }
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.075);
+  }
   // overflow-x: hidden;
   & h2 {
     @include elMesseryFont(42px, 1.56, 700);
@@ -23,13 +42,14 @@
     display: flex;
     justify-content: center;
     gap: 37px;
+    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
     margin-top: 20px;
     @media screen and (min-width: 1280px) {
       flex-direction: row;
       margin-top: 117px;
-      gap: 278px;
+      column-gap: 50px;
+      row-gap: 50px;
     }
     & li {
       width: 263px;

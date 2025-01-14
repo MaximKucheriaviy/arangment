@@ -1,7 +1,13 @@
 .works {
-  @include section(0px, 64px, 20px, 20px);
   @media screen and (min-width: 1280px) {
-    @include section(89px, 70px, 85px, 85px);
+    padding-top: 89px;
+  }
+  &-cover {
+    border-bottom: 2px solid rgba(255, 217, 0, 0.336);
+    @include section(0px, 64px, 20px, 20px);
+    @media screen and (min-width: 1280px) {
+      @include section(0px, 70px, 85px, 85px);
+    }
   }
   & h2 {
     @include elMesseryFont(34px, 1.56, 700);

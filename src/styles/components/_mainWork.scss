@@ -1,4 +1,7 @@
 .main-work-section {
+  .main-work-2 {
+    margin-top: 200px;
+  }
   .main-work {
     position: relative;
     width: 90vw;
@@ -53,6 +56,17 @@
       @media screen and (min-width: 1280px) {
         margin-top: 39px;
         @include elMesseryFont(32px, 1.8, 900);
+        color: black;
+      }
+      color: black;
+      text-align: center;
+    }
+    .video-description-2 {
+      @include elMesseryFont(20px, 23px, 600);
+      margin-top: 30px;
+      @media screen and (min-width: 1280px) {
+        margin-top: 39px;
+        @include elMesseryFont(28px, 1.8, 900);
         color: black;
       }
       color: black;
