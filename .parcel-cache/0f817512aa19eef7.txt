@@ -1,4 +1,4 @@
-23047
+23052
 75D:\HomeworkLocalRepo\arangment\node_modules\core-js\modules\es7.map.from.js133812580823953746 0
 59D:\HomeworkLocalRepo\arangment\node_modules\combined-stream133812580323948714 1
 53D:\HomeworkLocalRepo\arangment\node_modules\.bin\uuid133812580864453681 0
@@ -102,7 +102,7 @@
 79D:\HomeworkLocalRepo\arangment\node_modules\core-js\fn\array\virtual\entries.js133812580800003712 0
 55D:\HomeworkLocalRepo\arangment\node_modules\randombytes133812580441763081 1
 59D:\HomeworkLocalRepo\arangment\node_modules\ws\package.json133812580546731314 0
-35D:\HomeworkLocalRepo\arangment\dist133813122993253015 1
+35D:\HomeworkLocalRepo\arangment\dist133813130212088578 1
 93D:\HomeworkLocalRepo\arangment\node_modules\@babel\core\lib\transformation\plugin-pass.js.map133812580739502931 0
 74D:\HomeworkLocalRepo\arangment\node_modules\w3c-xmlserializer\lib\index.js133812580343938677 0
 68D:\HomeworkLocalRepo\arangment\node_modules\rgba-regex\.editorconfig133812580337158687 0
@@ -212,7 +212,7 @@
 96D:\HomeworkLocalRepo\arangment\node_modules\@babel\runtime\helpers\esm\skipFirstGeneratorNext.js133812580745602912 0
 85D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\lib\builtins\bundle-url.js133812580652802631 0
 79D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2019\thisStringValue.js133812580859153725 0
-41D:\HomeworkLocalRepo\arangment\src\images133812659559847779 1
+41D:\HomeworkLocalRepo\arangment\src\images133813128987492940 1
 61D:\HomeworkLocalRepo\arangment\node_modules\is-color-stop\lib133812580551806972 1
 102D:\HomeworkLocalRepo\arangment\node_modules\postcss-modules-scope\node_modules\postcss\CONTRIBUTING.md133812580263791980 0
 57D:\HomeworkLocalRepo\arangment\node_modules\use\README.md133812580279618331 0
@@ -290,8 +290,8 @@
 68D:\HomeworkLocalRepo\arangment\node_modules\pako\lib\zlib\inflate.js133812580558657018 0
 100D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\purgecss\lib\purgecss.esm.js133812580270731926 0
 58D:\HomeworkLocalRepo\arangment\node_modules\normalize-path133812580273591953 1
-67D:\HomeworkLocalRepo\arangment\node_modules\lodash\_arrayShuffle.js133812580567427007 0
 75D:\HomeworkLocalRepo\arangment\node_modules\webidl-conversions\package.json133812580150762750 0
+67D:\HomeworkLocalRepo\arangment\node_modules\lodash\_arrayShuffle.js133812580567427007 0
 80D:\HomeworkLocalRepo\arangment\node_modules\css-what\lib\commonjs\parse.d.ts.map133812580547701247 0
 99D:\HomeworkLocalRepo\arangment\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none133812580759472871 1
 78D:\HomeworkLocalRepo\arangment\node_modules\caniuse-lite\data\features\heif.js133812580806393731 0
@@ -380,7 +380,7 @@
 77D:\HomeworkLocalRepo\arangment\node_modules\path-browserify\test\test-path.js133812580374147832 0
 67D:\HomeworkLocalRepo\arangment\node_modules\xmlchars\xml\1.1\ed2.js133812580216216088 0
 75D:\HomeworkLocalRepo\arangment\node_modules\string.prototype.trimend\.nycrc133812580229025891 0
-55D:\HomeworkLocalRepo\arangment\src\partshals\works.html133813116097705380 0
+55D:\HomeworkLocalRepo\arangment\src\partshals\works.html133813130209867520 0
 68D:\HomeworkLocalRepo\arangment\node_modules\snapdragon-node\index.js133812580313598687 0
 99D:\HomeworkLocalRepo\arangment\node_modules\static-extend\node_modules\is-data-descriptor\README.md133812580198565858 0
 74D:\HomeworkLocalRepo\arangment\src\styles\components\_characteristick.scss133313278662602981 0
@@ -399,20 +399,6 @@
 95D:\HomeworkLocalRepo\arangment\node_modules\css-select\node_modules\entities\lib\index.d.ts.map133812580669182576 0
 76D:\HomeworkLocalRepo\arangment\node_modules\available-typed-arrays\.eslintrc133812580197555890 0
 66D:\HomeworkLocalRepo\arangment\node_modules\css-selector-tokenizer133812580451823126 1
-48D:\HomeworkLocalRepo\arangment\node_modules\urix133812580371222691 1
-74D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2020\BigInt\add.js133812580660482589 0
-76D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2019\IteratorStep.js133812580824483699 0
-90D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\posthtml\README.md133812580418743317 0
-122D:\HomeworkLocalRepo\arangment\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.js133812580508237329 0
-48D:\HomeworkLocalRepo\arangment\node_modules\gopd133812580441823122 1
-68D:\HomeworkLocalRepo\arangment\node_modules\gopd\.github\FUNDING.yml133812580447523058 0
-79D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2021\Number\subtract.js133812580858683699 0
-64D:\HomeworkLocalRepo\arangment\node_modules\wcwidth\package.json133812580150772752 0
-98D:\HomeworkLocalRepo\arangment\node_modules\side-channel\node_modules\object-inspect\example\fn.js133812580539140866 0
-99D:\HomeworkLocalRepo\arangment\node_modules\css-select\node_modules\domhandler\lib\esm\package.json133812580441583114 0
-121D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\htmlnano\node_modules\domutils\lib\index.d.ts.map133812580539300704 0
-88D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\js-yaml\index.js133812580559026960 0
-54D:\HomeworkLocalRepo\arangment\src\images\svgIcons.svg133311264461665758 0
 121D:\HomeworkLocalRepo\arangment\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-gnu.node133812580672302570 0
 61D:\HomeworkLocalRepo\arangment\node_modules\verror\CHANGES.md133812580344188692 0
 97D:\HomeworkLocalRepo\arangment\node_modules\snapdragon-node\node_modules\define-property\index.js133812580295228766 0
@@ -668,6 +654,10 @@
 113D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\csso\lib\restructure\8-restructRuleset.js133812580452753070 0
 49D:\HomeworkLocalRepo\arangment\src\images\Fox.png133311264461645766 0
 51D:\HomeworkLocalRepo\arangment\node_modules\is-html133812580273892097 1
+83D:\HomeworkLocalRepo\arangment\node_modules\@babel\runtime\helpers\newArrowCheck.js133812580753112861 0
+63D:\HomeworkLocalRepo\arangment\node_modules\lodash\kebabCase.js133812580819813832 0
+71D:\HomeworkLocalRepo\arangment\node_modules\internal-slot\test\index.js133812580434573190 0
+57D:\HomeworkLocalRepo\arangment\src\images\louna cover.jpg133813128732299086 0
 73D:\HomeworkLocalRepo\arangment\node_modules\stream-browserify\test\buf.js133812580396103106 0
 66D:\HomeworkLocalRepo\arangment\node_modules\tiny-inflate\readme.md133812580344398704 0
 77D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2022\IteratorValue.js133812580824623735 0
@@ -686,6 +676,20 @@
 50D:\HomeworkLocalRepo\arangment\node_modules\des.js133812580553157014 1
 75D:\HomeworkLocalRepo\arangment\node_modules\css-tree\lib\syntax\node\Nth.js133812580760582892 0
 51D:\HomeworkLocalRepo\arangment\src\images\rabit.png133313255253873009 0
+48D:\HomeworkLocalRepo\arangment\node_modules\urix133812580371222691 1
+74D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2020\BigInt\add.js133812580660482589 0
+76D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2019\IteratorStep.js133812580824483699 0
+90D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\posthtml\README.md133812580418743317 0
+122D:\HomeworkLocalRepo\arangment\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.js133812580508237329 0
+48D:\HomeworkLocalRepo\arangment\node_modules\gopd133812580441823122 1
+68D:\HomeworkLocalRepo\arangment\node_modules\gopd\.github\FUNDING.yml133812580447523058 0
+79D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2021\Number\subtract.js133812580858683699 0
+64D:\HomeworkLocalRepo\arangment\node_modules\wcwidth\package.json133812580150772752 0
+98D:\HomeworkLocalRepo\arangment\node_modules\side-channel\node_modules\object-inspect\example\fn.js133812580539140866 0
+99D:\HomeworkLocalRepo\arangment\node_modules\css-select\node_modules\domhandler\lib\esm\package.json133812580441583114 0
+121D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\htmlnano\node_modules\domutils\lib\index.d.ts.map133812580539300704 0
+88D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\js-yaml\index.js133812580559026960 0
+54D:\HomeworkLocalRepo\arangment\src\images\svgIcons.svg133311264461665758 0
 62D:\HomeworkLocalRepo\arangment\node_modules\ws\lib\receiver.js133812580449993102 0
 69D:\HomeworkLocalRepo\arangment\node_modules\core-js\modules\_flags.js133812580717663122 0
 65D:\HomeworkLocalRepo\arangment\node_modules\ecc-jsbn\package.json133812580289039028 0
@@ -781,9 +785,6 @@
 102D:\HomeworkLocalRepo\arangment\node_modules\regenerate-unicode-properties\Script_Extensions\Grantha.js133812580739322883 0
 79D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\src\builtins\loaders133812580754082895 1
 73D:\HomeworkLocalRepo\arangment\node_modules\babel-plugin-polyfill-corejs3133812580558816974 1
-91D:\HomeworkLocalRepo\arangment\node_modules\regenerate-unicode-properties\Script\Sogdian.js133812580786073686 0
-83D:\HomeworkLocalRepo\arangment\node_modules\@babel\helper-hoist-variables\README.md133812580198165909 0
-68D:\HomeworkLocalRepo\arangment\node_modules\static-eval\package.json133812580450173070 0
 94D:\HomeworkLocalRepo\arangment\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib133812580655692607 1
 57D:\HomeworkLocalRepo\arangment\RepetitionPhoto\photo5.jpg133311264461685760 0
 69D:\HomeworkLocalRepo\arangment\node_modules\@parcel\core\lib\types.js133812580753002903 0
@@ -2674,8 +2675,8 @@
 78D:\HomeworkLocalRepo\arangment\node_modules\postcss-normalize-timing-functions133812580334148695 1
 69D:\HomeworkLocalRepo\arangment\node_modules\@babel\traverse\README.md133812580198085881 0
 91D:\HomeworkLocalRepo\arangment\node_modules\log-symbols\node_modules\chalk\types\index.d.ts133812580441573114 0
-48D:\HomeworkLocalRepo\arangment\node_modules\once133812580273571964 1
 103D:\HomeworkLocalRepo\arangment\node_modules\postcss-modules-scope\node_modules\postcss\lib\warn-once.js133812580662752605 0
+48D:\HomeworkLocalRepo\arangment\node_modules\once133812580273571964 1
 104D:\HomeworkLocalRepo\arangment\node_modules\babel-runtime\core-js\reflect\get-own-property-descriptor.js133812580755542866 0
 91D:\HomeworkLocalRepo\arangment\node_modules\postcss-ordered-values\src\lib\joinGridValue.js133812580515087296 0
 111D:\HomeworkLocalRepo\arangment\node_modules\fast-glob\node_modules\braces\node_modules\extend-shallow\README.md133812580206785910 0
@@ -5646,6 +5647,7 @@
 81D:\HomeworkLocalRepo\arangment\node_modules\array-buffer-byte-length\CHANGELOG.md133812580434683098 0
 80D:\HomeworkLocalRepo\arangment\node_modules\supports-preserve-symlinks-flag\test133812580391133052 1
 79D:\HomeworkLocalRepo\arangment\node_modules\string.prototype.trim\test\tests.js133812580517440734 0
+60D:\HomeworkLocalRepo\arangment\dist\louna cover.0ea88b09.jpg133813129597760027 0
 94D:\HomeworkLocalRepo\arangment\node_modules\regenerate-unicode-properties\Script\Old_Permic.js133812580773843669 0
 83D:\HomeworkLocalRepo\arangment\node_modules\jsdom\node_modules\ws\lib\validation.js133812580509607311 0
 87D:\HomeworkLocalRepo\arangment\node_modules\static-extend\node_modules\kind-of\index.js133812580198615926 0
@@ -6135,6 +6137,9 @@
 58D:\HomeworkLocalRepo\arangment\node_modules\snapdragon\lib133812580454623059 1
 92D:\HomeworkLocalRepo\arangment\node_modules\caniuse-lite\data\features\html-media-capture.js133812580812203678 0
 68D:\HomeworkLocalRepo\arangment\node_modules\static-eval\CHANGELOG.md133812580492849224 0
+91D:\HomeworkLocalRepo\arangment\node_modules\regenerate-unicode-properties\Script\Sogdian.js133812580786073686 0
+83D:\HomeworkLocalRepo\arangment\node_modules\@babel\helper-hoist-variables\README.md133812580198165909 0
+68D:\HomeworkLocalRepo\arangment\node_modules\static-eval\package.json133812580450173070 0
 67D:\HomeworkLocalRepo\arangment\node_modules\static-eval\security.md133812580508407312 0
 76D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\helpers\modBigInt.js133812580825733734 0
 90D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2018\AbstractEqualityComparison.js133812580639418848 0
@@ -6807,10 +6812,10 @@
 72D:\HomeworkLocalRepo\arangment\node_modules\serialize-to-js\lib\internal133812580404733070 1
 117D:\HomeworkLocalRepo\arangment\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\map-generator.js133812580626338873 0
 71D:\HomeworkLocalRepo\arangment\node_modules\setprototypeof\package.json133812580150932752 0
+115D:\HomeworkLocalRepo\arangment\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts133812580676742636 0
+72D:\HomeworkLocalRepo\arangment\node_modules\core-js\fn\function\index.js133812580829453713 0
 61D:\HomeworkLocalRepo\arangment\node_modules\mime\package.json133812580154432736 0
 75D:\HomeworkLocalRepo\arangment\node_modules\postcss-normalize-positions\src133812580194325863 1
-72D:\HomeworkLocalRepo\arangment\node_modules\core-js\fn\function\index.js133812580829453713 0
-115D:\HomeworkLocalRepo\arangment\node_modules\css-select\node_modules\entities\lib\esm\generated\decode-data-xml.d.ts133812580676742636 0
 135D:\HomeworkLocalRepo\arangment\node_modules\parcel-bundler\node_modules\postcss-discard-overridden\src\__tests__\fixtures\keyframes.css133812580507947320 0
 68D:\HomeworkLocalRepo\arangment\node_modules\setprototypeof\README.md133812580337148686 0
 72D:\HomeworkLocalRepo\arangment\node_modules\setprototypeof\test\index.js133812580396153064 0
@@ -13004,9 +13009,6 @@
 59D:\HomeworkLocalRepo\arangment\node_modules\lodash\isSet.js133812580815593730 0
 62D:\HomeworkLocalRepo\arangment\node_modules\lodash\isString.js133812580815623682 0
 62D:\HomeworkLocalRepo\arangment\node_modules\lodash\isSymbol.js133812580815643674 0
-83D:\HomeworkLocalRepo\arangment\node_modules\@babel\runtime\helpers\newArrowCheck.js133812580753112861 0
-63D:\HomeworkLocalRepo\arangment\node_modules\lodash\kebabCase.js133812580819813832 0
-71D:\HomeworkLocalRepo\arangment\node_modules\internal-slot\test\index.js133812580434573190 0
 59D:\HomeworkLocalRepo\arangment\node_modules\lodash\keyBy.js133812580820633720 0
 68D:\HomeworkLocalRepo\arangment\node_modules\lodash\_memoizeCapped.js133812580761002895 0
 76D:\HomeworkLocalRepo\arangment\node_modules\es-abstract\2018\ObjectCreate.js133812580827193716 0
@@ -23010,10 +23012,12 @@
 59D:\HomeworkLocalRepo\arangment\dist\background.9d0877d8.jpg133812660468548893 0
 52D:\HomeworkLocalRepo\arangment\dist\cat.e20392b3.png133812642946212243 0
 60D:\HomeworkLocalRepo\arangment\dist\coveqAmante.5ae5b9f5.jpg133812659242482876 0
-40D:\HomeworkLocalRepo\arangment\dist\docs133813122767669976 1
+40D:\HomeworkLocalRepo\arangment\dist\docs133813129596043213 1
 52D:\HomeworkLocalRepo\arangment\dist\Fox.4fda7a64.png133812660464668840 0
 64D:\HomeworkLocalRepo\arangment\dist\Higo de la luna.21c0f576.pdf133812660455428847 0
 64D:\HomeworkLocalRepo\arangment\dist\Higo de la luna.a6576349.pdf133812642946112236 0
+54D:\HomeworkLocalRepo\arangment\dist\index.0430e030.css133813123526281655 0
+58D:\HomeworkLocalRepo\arangment\dist\index.0430e030.css.map133813123526321727 0
 53D:\HomeworkLocalRepo\arangment\dist\index.38110f5a.js133812654619529903 0
 57D:\HomeworkLocalRepo\arangment\dist\index.38110f5a.js.map133812654619559888 0
 53D:\HomeworkLocalRepo\arangment\dist\index.65ec9a7f.js133812660585866500 0
@@ -23022,7 +23026,7 @@
 54D:\HomeworkLocalRepo\arangment\dist\index.971c2ea4.css133813122993203099 0
 57D:\HomeworkLocalRepo\arangment\dist\index.e82d58f1.js.map133812660585946516 0
 53D:\HomeworkLocalRepo\arangment\dist\index.eb871a50.js133812660585866500 0
-46D:\HomeworkLocalRepo\arangment\dist\index.html133813122768150005 0
+46D:\HomeworkLocalRepo\arangment\dist\index.html133813130212078585 0
 64D:\HomeworkLocalRepo\arangment\dist\mainScoresTitle.8c99ecf4.jpg133812642945832238 0
 64D:\HomeworkLocalRepo\arangment\dist\mainScoresTitle.bace6472.jpg133812660464238841 0
 54D:\HomeworkLocalRepo\arangment\dist\mouse.605d5395.png133812642945622266 0
@@ -23043,6 +23047,7 @@
 68D:\HomeworkLocalRepo\arangment\dist\RepetitionPhoto\photos\pause.png133812640896641016 0
 67D:\HomeworkLocalRepo\arangment\dist\RepetitionPhoto\photos\stop.png133812641262761226 0
 56D:\HomeworkLocalRepo\arangment\dist\docs\AdiosAmante.pdf133813122767649988 0
+60D:\HomeworkLocalRepo\arangment\dist\docs\Higo de la luna.pdf133813129596020021 0
 50D:\HomeworkLocalRepo\arangment\dist\docs\works.pdf133812660455588844 0
 58D:\HomeworkLocalRepo\arangment\dist\docs\works.pdf.23808.z133812599763348874 0
 58D:\HomeworkLocalRepo\arangment\dist\docs\works.pdf.27452.w133812625935332925 0
